@@ -1,0 +1,13 @@
+<html>
+<body>
+ <video class="vid" controls loop>
+        <source src="v2.mp4"></source>
+    </video>
+<script>
+(window).load(function(){
+	$('.loading').fadeOut('fast');
+	$('.container').fadeIn('fast');
+});
+</script>
+</body>
+</html>
