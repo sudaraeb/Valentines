@@ -44,8 +44,8 @@ $('document').ready(function(){
 		});
 	});
 	$('#vid').click(function () {
-            var url="https://youtu.be/OHmaar0pXYg"
-	    window.location(url);
+          
+	   document.location.href='https://youtu.be/OHmaar0pXYg'
 	});
 
 	$('#bannar_coming').click(function(){
